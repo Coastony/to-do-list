@@ -2,6 +2,7 @@ import { PlusCircle } from 'phosphor-react'
 import { ChangeEvent, FormEvent, InvalidEvent, useState } from 'react';
 
 import styles from './Header.module.css'
+import logo from '../../assets/Logo.svg'
 
 interface Props {
     onAddTask: (taskTitle: string) => void;
@@ -29,7 +30,7 @@ export function Header({ onAddTask }: Props) {
 
     return (
         <header className={styles.header}>
-            <img src="../src/assets/Logo.svg" alt="" />
+            <img src={logo} alt="" />
 
             <form className={styles.newTaskForm} onSubmit={handleSubmit}>
                 <input 
