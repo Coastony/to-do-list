@@ -71,3 +71,17 @@ p.textCompleted {
         margin-left: -2rem;
     }
 }
+
+@media only screen and (min-width: 1000px) {
+    .task {
+        width: 100%;
+        margin-left: -6em;
+    }
+}
+
+@media only screen and (min-width: 1330px) {
+    .task {
+        width: 100%;
+        margin-left: -4em;
+    }
+}
