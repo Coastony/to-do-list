@@ -5,6 +5,7 @@
     justify-content: center;
     height: 12.5rem;
     position: relative;
+    width: 100%;
 }
 
 .newTaskForm {
