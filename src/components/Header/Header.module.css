@@ -83,6 +83,10 @@
 }
 
 @media only screen and (min-width: 768px) {
+    .header {
+        width: 100%;
+    }
+    
     .header img {
         margin-right: 0rem;
     }
