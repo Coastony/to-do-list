@@ -20,4 +20,4 @@
 </p>
 
 ## 📁 Project access
-You can access the project files by clicking [here](https://github.com/Coastony/FeedDev)
+You can access the project files by clicking [here](https://github.com/Coastony/to-do-list)
