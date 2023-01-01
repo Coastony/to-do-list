@@ -106,7 +106,7 @@
 
     .header {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .concluded {
@@ -138,6 +138,10 @@
         justify-content: space-between;
     }
 
+    .concluded {
+        margin-left: -9rem;
+    }
+
     .empty {
         text-align: center;
         align-items: center;
@@ -145,7 +149,7 @@
     }
 
     .empty {
-        margin-right: 14rem;
+        margin-right: 15rem;
     }
 
     .empty svg {
@@ -160,7 +164,7 @@
 
 @media only screen and (min-width: 1330px) {
     .tasks {
-        margin-left: 26rem;
+        margin-left : 24rem;
     }
 
     .empty {
