@@ -55,3 +55,19 @@ p.textCompleted {
 .deleteButton:hover {
     color: var(--danger);
 }
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 375px) {
+    .task {
+        width: 50%;
+        margin-left: 0.9rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .task {
+        width: 100%;
+        margin-left: -0.3rem;
+    }
+}
