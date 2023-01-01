@@ -75,7 +75,7 @@
     }
 
     .concluded {
-        margin-bottom: 1rem;
+        margin-bottom: 0rem;
     }
 
     .empty {
@@ -83,7 +83,6 @@
         display: grid;
         text-align: left;
         padding: 0 1rem;
-        /* width: 350px; */
     }
 
     .empty svg {
@@ -94,26 +93,29 @@
         font-size: 0.8em;
         margin-left: 2em;
     }
+
+    .empty span {
+        font-size: 0.95em;
+    }
 }
 
 @media only screen and (min-width: 768px) {
     .tasks {
-        margin-right: 14rem;
+        margin-left: 8rem;
     }
 
     .header {
         display: flex;
-        justify-content: flex-start;
+        justify-content: space-around;
     }
 
     .concluded {
         margin-bottom: 0;
-        margin-left: 6rem;
+        margin-right: 13rem;
     }
 
     .empty {
-        margin-left: 2.5rem;
-        /* width: 430px; */
+        margin-left: 4rem;
     }
 
     .empty svg {
@@ -128,7 +130,7 @@
 
 @media only screen and (min-width: 1000px) {
     .tasks {
-        margin-right: 8rem;
+        margin-left: 14rem;
     }
 
     .header {
@@ -143,8 +145,7 @@
     }
 
     .empty {
-        margin-left: 0rem;
-        width: 700px;
+        margin-right: 14rem;
     }
 
     .empty svg {
@@ -159,12 +160,11 @@
 
 @media only screen and (min-width: 1330px) {
     .tasks {
-        margin-left: 19.5rem;
+        margin-left: 26rem;
     }
 
     .empty {
-        margin-left: 0rem;
-        width: 700px;
+        margin-right: 16rem;
     }
 
     .empty svg {
