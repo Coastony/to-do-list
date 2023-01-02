@@ -23,7 +23,6 @@ p.textCompleted {
     text-decoration: line-through;
 }
 
-
 .checkContainer {
     width: 1.125rem;
     height: 1.125rem;
@@ -75,13 +74,13 @@ p.textCompleted {
 @media only screen and (min-width: 1000px) {
     .task {
         width: 100%;
-        margin-left: -6em;
+        margin-left: -5em;
     }
 }
 
 @media only screen and (min-width: 1330px) {
     .task {
         width: 100%;
-        margin-left: -4em;
+        margin-left: -5.5rem;
     }
 }
