@@ -1,6 +1,5 @@
 .tasks {
-    width: 100%;
-    max-width: 46rem;
+    width: 46rem;
     margin: 0 auto;
     margin-top: 5.625rem;
     padding: 0 1rem;
@@ -130,8 +129,7 @@
 
 @media only screen and (min-width: 1000px) {
     .tasks {
-        margin-left: 14rem;
-        position: fixed;
+        margin-left: 15rem;
     }
 
     .header {
@@ -162,14 +160,12 @@
 @media only screen and (min-width: 1200px) {
     .tasks{
         margin-left: 19.2rem;
-        position: fixed;
     }
 }
 
 @media only screen and (min-width: 1330px) {
     .tasks {
-        margin-left: 24rem;
-        position: fixed;
+        margin-left: 25rem;
     }
 
     .empty {
