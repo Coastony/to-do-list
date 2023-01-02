@@ -131,6 +131,7 @@
 @media only screen and (min-width: 1000px) {
     .tasks {
         margin-left: 14rem;
+        position: fixed;
     }
 
     .header {
@@ -161,12 +162,14 @@
 @media only screen and (min-width: 1200px) {
     .tasks{
         margin-left: 19.2rem;
+        position: fixed;
     }
 }
 
 @media only screen and (min-width: 1330px) {
     .tasks {
         margin-left: 24rem;
+        position: fixed;
     }
 
     .empty {
