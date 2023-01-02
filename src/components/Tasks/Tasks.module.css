@@ -158,9 +158,15 @@
     }
 }
 
+@media only screen and (min-width: 1200px) {
+    .tasks{
+        margin-left: 19.2rem;
+    }
+}
+
 @media only screen and (min-width: 1330px) {
     .tasks {
-        margin-left : 24rem;
+        margin-left: 24rem;
     }
 
     .empty {
