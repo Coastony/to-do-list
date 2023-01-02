@@ -61,6 +61,10 @@
 /* MEDIA QUERIES */
 
 @media only screen and (min-width: 375px) {
+    .header {
+        width: 100%;
+    }
+
     .header img {
         margin-right: 0rem;
     }
@@ -70,7 +74,7 @@
         padding: 0 2.1rem;
     }
 
-    .newTaskForm  input{
+    .newTaskForm input{
         width: 300px;
         height: 50px;
     }
