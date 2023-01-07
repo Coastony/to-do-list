@@ -12,6 +12,9 @@
 - ``TypeScript``
 - ``ReactJS``
 - ``Google Fonts``
+- ``CSS Modules``
+- ``Vite``
+- ``Local Storage``
 
 <br>
 
