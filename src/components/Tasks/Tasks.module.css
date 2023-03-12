@@ -62,122 +62,23 @@
     font-weight: 700;
 }
 
-/* MEDIA QUERIES */
-
-@media only screen and (min-width: 375px) {
+@media screen and (max-width: 768px) {
     .tasks {
-        margin-top: 7rem;
+        padding: 0 2rem;
     }
 
     .header {
         display: grid;
-        gap: 15px;
-    }
-
-    .concluded {
-        margin-bottom: 0rem;
-    }
-
-    .empty {
-        margin-top: 1rem;
-        display: grid;
-        text-align: left;
-        padding: 0 1rem;
-    }
-
-    .empty svg {
-        margin-left: 7.6rem;
-    }
-
-    .empty p {
-        font-size: 0.8em;
-        margin-left: 2em;
-    }
-
-    .empty span {
-        font-size: 0.95em;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .tasks {
-        margin-left: 8rem;
-    }
-
-    .header {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .concluded {
-        margin-bottom: 0;
-        margin-right: 13rem;
-    }
-
-    .empty {
-        margin-left: 4rem;
-    }
-
-    .empty svg {
-        margin-left: 8rem;
-    }
-
-    .empty p {
-        font-size: 0.8em;
-        margin-left: 2em;
-    }
-}
-
-@media only screen and (min-width: 1000px) {
-    .tasks {
-        margin-left: 15rem;
-    }
-
-    .header {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .empty {
         text-align: center;
         align-items: center;
         justify-content: center;
+        gap: 1.2rem;
     }
 
-    .empty {
-        margin-right: 15rem;
-    }
-
-    .empty svg {
-        margin-left: 8rem;
-    }
-
-    .empty p {
-        font-size: 1em;
-        margin-left: 0em;
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        .header {
+            display: flex;
+            justify-content: space-between;
+        }
     }
 }
-
-@media only screen and (min-width: 1200px) {
-    .tasks{
-        margin-left: 19.2rem;
-    }
-}
-
-@media only screen and (min-width: 1330px) {
-    .tasks {
-        margin-left: 25rem;
-    }
-
-    .empty {
-        margin-right: 16rem;
-    }
-
-    .empty svg {
-        margin-left: 8rem;
-    }
-
-    .empty p {
-        font-size: 1em;
-    }
-} 
